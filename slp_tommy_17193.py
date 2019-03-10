@@ -136,7 +136,7 @@ plt.ylabel('Loss Function')
 plt.xlabel('Epoch')
 plt.legend()
 
-# Hasil Loss Function K-Fold Cross Validation
+# Hasil Akurasi K-Fold Cross Validation
 plot_akurasi_training = np.add(np.add(np.add(np.add(K1[1],K2[1]),K3[1]),K4[1]),K5[1])/5
 plot_akurasi_validasi = np.add(np.add(np.add(np.add(K1[3],K2[3]),K3[3]),K4[3]),K5[3])/5
 plt.plot(plot_akurasi_training,label="Data Training")
